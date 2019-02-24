@@ -1,17 +1,16 @@
 [
 {
-  "modid": "nyasamaoptics",
-  "name": "NyaSama Optics",
-  "description": "NyaSama optics mod.",
+  "modid": "mcgutil",
+  "name": "MCG Util",
+  "description": "MCG util mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "http://dev.nyasama.com/nsmc",
+  "url": "http://nya.ac.cn",
   "updateUrl": "",
-  "authorList": ["NSDN"],
+  "authorList": ["NSDN", "drzzm32"],
   "credits": "Copyright (C) NSDN 2014 - 2019",
-  "logoFile": "logo.png",
+  "logoFile": "",
   "screenshots": [],
-  "requiredMods": ["NyaSamaTelecom"],
   "dependencies": []
 }
 ]

@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom_rh",
+    "textures": {
+        "bottom": "mcgutil:block/door_glass_lower",
+        "top": "mcgutil:block/door_glass_upper"
+    }
+}

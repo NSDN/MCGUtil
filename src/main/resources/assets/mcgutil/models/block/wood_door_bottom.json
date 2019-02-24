@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "mcgutil:block/door_wood_lower",
+        "top": "mcgutil:block/door_wood_upper"
+    }
+}

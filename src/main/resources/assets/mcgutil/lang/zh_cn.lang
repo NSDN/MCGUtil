@@ -1,0 +1,13 @@
+tile.Logo.name=MCG标志
+itemGroup.tabMCGUtil=MCG Util
+
+item.NihonDoor.name=和式木门
+item.GlassDoor.name=玻璃门
+item.EienDoor.name=永远亭门
+item.EienDoor2.name=永远亭门
+item.BookDoor.name=书架门
+item.WoodDoor.name=木板门
+item.WoodDoor2.name=木板红石门
+
+tile.WoodTrapdoor.name=木板条陷阱门
+tile.NewspaperTrapdoor.name=报纸堆陷阱门

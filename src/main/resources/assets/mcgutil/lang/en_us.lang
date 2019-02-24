@@ -1,0 +1,13 @@
+tile.Logo.name=MCG Logo
+itemGroup.tabMCGUtil=MCG Util
+
+item.NihonDoor.name=Nihon Door
+item.GlassDoor.name=Glass Door
+item.EienDoor.name=Eien Door(RS)
+item.EienDoor2.name=Eien Door 2(RS)
+item.BookDoor.name=Bookshelf Door
+item.WoodDoor.name=Wooden Door
+item.WoodDoor2.name=Wooden Door(RS)
+
+tile.WoodTrapdoor.name=Wooden Trapdoor
+tile.NewspaperTrapdoor.name=Newspaper Trapdoor
