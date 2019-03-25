@@ -71,13 +71,13 @@ public class BlockLoader {
         logo = new BlockLogo();
         blocks.add(logo);
 
-        blocks.add(new BlockDoor("BookDoor", "book_door", false));
-        blocks.add(new BlockDoor("EienDoor2", "eien_2_door", true));
-        blocks.add(new BlockDoor("EienDoor", "eien_door", true));
-        blocks.add(new BlockDoor("GlassDoor", "glass_door", false));
-        blocks.add(new BlockDoor("NihonDoor", "nihon_door", false));
-        blocks.add(new BlockDoor("WoodDoor2", "wood_2_door", true));
-        blocks.add(new BlockDoor("WoodDoor", "wood_door", false));
+        blocks.add(new BlockDoor("BookDoor", "bookdoor", false));
+        blocks.add(new BlockDoor("EienDoor2", "eiendoor2", true));
+        blocks.add(new BlockDoor("EienDoor", "eiendoor", true));
+        blocks.add(new BlockDoor("GlassDoor", "glassdoor", false));
+        blocks.add(new BlockDoor("NihonDoor", "nihondoor", false));
+        blocks.add(new BlockDoor("WoodDoor2", "wooddoor2", true));
+        blocks.add(new BlockDoor("WoodDoor", "wooddoor", false));
 
         doors = new LinkedList<>();
         for (Block block : blocks) {
@@ -85,8 +85,8 @@ public class BlockLoader {
                 doors.add((BlockDoor) block);
         }
 
-        blocks.add(new BlockTrapDoor("WoodTrapdoor", "wood_trapdoor"));
-        blocks.add(new BlockTrapDoor("NewspaperTrapdoor", "newspaper_trapdoor"));
+        blocks.add(new BlockTrapDoor("WoodTrapdoor", "woodtrapdoor"));
+        blocks.add(new BlockTrapDoor("NewspaperTrapdoor", "newspapertrapdoor"));
     }
 
 }
