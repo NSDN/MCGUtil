@@ -12,6 +12,7 @@ public class EventRegister {
     public static void registerCommon() {
         MinecraftForge.EVENT_BUS.register(BlockLoader.instance());
         MinecraftForge.EVENT_BUS.register(ItemLoader.instance());
+        MinecraftForge.EVENT_BUS.register(EntitySpawnHandler.instance());
     }
 
     public static void registerServer() {
