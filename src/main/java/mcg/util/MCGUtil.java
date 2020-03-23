@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
 /**
- * Created by drzzm32 on 2019.2.24.
+ * Created by drzzm32 on 2020.3.22.
  */
 @Mod(modid = MCGUtil.MODID, name = MCGUtil.NAME, version = MCGUtil.VERSION)
 public class MCGUtil {
@@ -22,8 +22,7 @@ public class MCGUtil {
     public static final String VERSION = "1.0";
     public static Logger logger;
 
-    @SidedProxy(clientSide = "mcg.util.proxy.ClientProxy",
-                serverSide = "mcg.util.proxy.ServerProxy")
+    @SidedProxy(clientSide = "mcg.util.proxy.ClientProxy")
     public static CommonProxy proxy;
 
     public static MCGUtil getInstance() {

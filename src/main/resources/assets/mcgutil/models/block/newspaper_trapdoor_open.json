@@ -1,6 +1,0 @@
-{
-    "parent": "block/trapdoor_open",
-    "textures": {
-        "texture": "mcgutil:block/newspaper_trapdoor"
-    }
-}

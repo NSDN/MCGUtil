@@ -1,7 +1,0 @@
-{
-    "parent": "block/door_bottom",
-    "textures": {
-        "bottom": "mcgutil:block/door_#replace_lower",
-        "top": "mcgutil:block/door_#replace_upper"
-    }
-}
