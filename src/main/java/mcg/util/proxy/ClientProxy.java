@@ -1,9 +1,6 @@
 package mcg.util.proxy;
 
-import club.nsdn.nyasamarailway.event.NTPCtrlHandler;
-import mcg.util.MCGUtil;
 import mcg.util.event.EventRegister;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.*;
 
 /**
@@ -25,8 +22,6 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void postInit(FMLPostInitializationEvent event) {
         super.postInit(event);
-        MCGUtil.logger.info("Unregister NyaSamaRailway's NTPCtrlHandler");
-        MinecraftForge.EVENT_BUS.unregister(NTPCtrlHandler.instance());
     }
 
 

@@ -56,8 +56,6 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-    compile files('libs/NyaSamaCompletePack-v2-200316.jar')
-    compile files('libs/RXTXcomm.jar')
 
 }
 
