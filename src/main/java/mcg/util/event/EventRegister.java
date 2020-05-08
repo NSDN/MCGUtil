@@ -15,7 +15,7 @@ public class EventRegister {
     }
 
     public static void registerClient() {
-        MinecraftForge.EVENT_BUS.register(ClientTickHandler.instance());
+
     }
 
 }
