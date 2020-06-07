@@ -27,12 +27,13 @@ public class GuiFilteredChat extends GuiNewChat {
 
     public final Minecraft mc;
 
-    public boolean canFilter = false;
+    public boolean canFilter = true;
 
     public static List<Pattern> patterns = new ArrayList<>();
 
     static { // 这里添加正则
         patterns.add(Pattern.compile("(.*\\[.*@.*].*)"));
+        patterns.add(Pattern.compile("(.*\\[.*:.*].*)"));
     }
 
     public static GuiFilteredChat INSTANCE = null;
